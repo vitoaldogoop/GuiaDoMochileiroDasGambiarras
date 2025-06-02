@@ -7,4 +7,8 @@
 
 Tudo o que vai precisar mexer em si fica centralizado no GetPlacaHandler ( PlacasAPI.Mediator\Placa\GetPlaca\GetPlacaHandler.cs), no método Handle. Ali, é feito uma busca na nossa base para verificar se a placa existe na nossa base.
 
-![Alt](infocarverify.jpg)
+![infoCarVerify](infocarverify.jpg)
+
+Armazenando as informações do carro no infoCarVerify, ou nulo caso não encontre nada e em seguida faz uma busca com a API da LBMInfo.
+
+![Chamada API da LBMInfo](image.png)
