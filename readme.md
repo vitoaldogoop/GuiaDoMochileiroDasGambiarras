@@ -3,7 +3,7 @@
 
 #### Um guia básico sobre API's da Takao, sobre o que fazer em casos de problemas comuns, como debugar, etc. 
 
-#### Não vou explicar nada em detalhes, vou apenas dar o caminho, ao debugar procurando as informações que informar, conseguirá lidar com o que precisa e entender o que está acontecendo de verdade no código.
+#### Não vou explicar nada em detalhes, vou apenas dar o caminho, ao debugar procurando as referencias abaixo, conseguirá lidar com o que precisa e entender o que está acontecendo de verdade no código.
 
 ## Placas API
 
