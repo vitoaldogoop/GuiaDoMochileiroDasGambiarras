@@ -1,7 +1,9 @@
 
 # GUIA DO MOCHILEIRO DAS GAMBIARRAS
 
-#### Um guia básico sobre API's da Takao, sobre o que fazer em casos de problemas comuns, como debugar, etc.  
+#### Um guia básico sobre API's da Takao, sobre o que fazer em casos de problemas comuns, como debugar, etc. 
+
+#### Não vou explicar nada em detalhes, vou apenas dar o caminho, ao debugar procurando as informações que informar, conseguirá lidar com o que precisa e entender o que está acontecendo de verdade no código.
 
 ## Placas API
 
@@ -38,4 +40,26 @@ Há duas chamadas principais relacionadas ao CPFR/Hub. Estoque e pedidos. Primei
 Ele monta um TVP para os códigos de empresa para também verificar multiplas empresas.
 
 ![alt text](image-6.png)
+![alt text](image-8.png)
+
+A chamada de pedidos, dentro da CustomerOrderController, através desta chamada
+
+![alt text](image-7.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+O trecho de esboço pode ser ignorado. Esta é a forma que o pedido é momentado e todos os tratamentos feitos. Vai deste jeito para o SAP.
+
+![alt text](image-11.png)
+
+Fazendo quaisquer adaptações neste trecho dentro da chamada, poderá manipular quaisquer atualizações necessárias
+
+#### Pontos importantes
+
+Api-Key: Chave que é usada por clientes no catalogo
+![alt text](image-12.png)
+Deve sempre estar nas chamadas pois ele automaticamente identifica o usuário por aí e é importante ter o da empresa com problema no momento que for debugar
+
+CustomerID também é preenchido a partir dele.
+
 
